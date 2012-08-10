@@ -10,15 +10,15 @@ Enjoy
 /* Reference icons from font-files */
 
 @font-face {
-	font-family: 'zocial';
-	font-style: normal;
-	font-weight: normal;
-	src: url('zocial-regular-webfont.eot');
-	src: url('zocial-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('zocial-regular-webfont.woff') format('woff'),
-		url('zocial-regular-webfont.ttf') format('truetype'),
-		url('zocial-regular-webfont.svg#ZocialRegular') format('svg');
-	unicode-range: U+0-U+10FFFF;
+  font-family: 'zocial';
+  font-style: normal;
+  font-weight: normal;
+  src: url('zocial-regular-webfont.eot');
+  src: url('zocial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('zocial-regular-webfont.woff') format('woff'),
+    url('zocial-regular-webfont.ttf') format('truetype'),
+    url('zocial-regular-webfont.svg#ZocialRegular') format('svg');
+  unicode-range: U+0-U+10FFFF;
 }
 
 
@@ -26,48 +26,48 @@ Enjoy
 .zocial,
 a.zocial {
 
-	cursor: pointer;
-	display: inline-block;
-	font: bold 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
-	white-space: nowrap;
-	
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	user-select: none;
-	
-	position: relative;
-	
-	-moz-border-radius: .3em;
-	-webkit-border-radius: .3em;
-	border-radius: .3em;
+  cursor: pointer;
+  display: inline-block;
+  font: bold 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+  white-space: nowrap;
+  
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  
+  position: relative;
+  
+  -moz-border-radius: .3em;
+  -webkit-border-radius: .3em;
+  border-radius: .3em;
 }
 
 .zocial:before {
-	content: "";
-	border-right: 0.075em solid rgba(0,0,0,0.1);
-	float: left;
-	font: 120%/1.65 zocial;
-	font-style: normal;
-	font-weight: normal;
-	margin: 0 0.5em 0 0;
-	padding: 0 0.5em;
-	text-align: center;
-	text-decoration: none;
-	text-transform: none;
-	
-	/*-moz-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
-	-webkit-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
-	box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);*/
-	
-	-webkit-font-smoothing: antialiased;
+  content: "";
+  border-right: 0.075em solid rgba(0,0,0,0.1);
+  float: left;
+  font: 120%/1.65 zocial;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0.5em 0 0;
+  padding: 0 0.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  
+  /*-moz-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
+  -webkit-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
+  box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);*/
+  
+  -webkit-font-smoothing: antialiased;
 }
 
 
 .zocial:active {
-	outline: none; /* outline is visible on :focus */
+  outline: none; /* outline is visible on :focus */
 }
 
 /* Buttons can be displayed as standalone icons by adding a class of "icon" */
@@ -76,8 +76,8 @@ a.zocial {
 
 }
 .zocial.icon:before {
-	box-shadow: none;
-	border: none;
+  box-shadow: none;
+  border: none;
 }
 
 /* Button icon and color */

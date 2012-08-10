@@ -21,9 +21,9 @@
   }
 
   div.container {
-  	padding: 0px 20px;
-	div.page-header {
-		@include border-radius(0);
-  	}
+    padding: 0px 20px;
+  div.page-header {
+    @include border-radius(0);
+    }
   }
 }

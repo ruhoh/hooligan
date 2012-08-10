@@ -1,0 +1,39 @@
+{
+  "exclude" : [
+    "layouts/*",
+    "stylesheets/_sass/*",
+    '*README.md',
+    '*sample.html'
+  ],
+  
+  "stylesheets" : {
+    "default" : [
+      "bootstrap/css/bootstrap.min.css",
+      "bootstrap/css/bootstrap-responsive.min.css",
+      "css-social-buttons/zocial.stripped.css",
+      "css/darkstrap.css",
+      "css/style.css?body=1"
+    ],
+   
+    "widgets" : {
+      "google_prettify" : "sunburst.css"
+    }    
+  },
+
+  "javascripts" : {
+    "default" : [
+      "jquery.min.js",
+      "bootstrap.min.js"
+    ]
+  },
+  
+  "manifest" : {
+    "name" : "hooligan",
+    "description" :  "A random theme for Jekyll + Jekyll-Bootstrap.",
+    "author" : {
+      "name" : "Dave Hulihan",
+      "email" : "dhulihan@gmail.com",
+      "website" : "http://www.hulihanapplications.com/"
+    }
+  }
+}

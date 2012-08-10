@@ -7,7 +7,7 @@
 /* line 13, ../_sass/_base.scss */
 html, body {
   background-color: #2a2a2a;
-  background: url(../images/bgs/body.png) repeat;
+  background: url(../../media/bgs/body.png) repeat;
 }
 
 /* line 18, ../_sass/_base.scss */
@@ -388,3 +388,9 @@ div.posts article div.date time {
   border-radius: 5px;
   padding: 5px 10px;
 }
+
+/* quick index page hacks */
+.post {margin-bottom:10px}
+.post .title a{font-size:1.5em}
+.post .date {float:right}
+.post .more {clear:both}
