@@ -11,8 +11,15 @@
       "bootstrap/css/bootstrap.min.css",
       "bootstrap/css/bootstrap-responsive.min.css",
       "css-social-buttons/zocial.stripped.css",
+      "css-social-buttons/zocial-regular-webfont.eot",
+      "css-social-buttons/zocial-regular-webfont.svg",
+      "css-social-buttons/zocial-regular-webfont.ttf",
+      "css-social-buttons/zocial-regular-webfont.woff",
+      "css-social-buttons/zocial.css",
+      "css/base.css",
       "css/darkstrap.css",
-      "css/style.css?body=1"
+      "css/pygments.css",
+      "css/style.css"
     ],
    
     "widgets" : {
